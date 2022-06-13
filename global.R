@@ -1,0 +1,43 @@
+#Author: Bac Tran
+#This is the user-interface definition of a Shiny web application. You can
+#run the application by clicking 'Run App' above.
+#
+
+library(shiny)
+library(vcd)
+library(summarytools)
+library(DT)
+library(shinyjs)
+library(shinycssloaders)
+library(visdat)
+library(rpart)
+library(rpart.plot)
+library(naniar)
+library(car)
+library(MASS)
+library(RColorBrewer)
+library(seriation)
+library(datasets)
+library("corrgram")
+library(visdat)
+library(tidytext)
+library(tidyverse)
+library(janeaustenr)
+library(stringr)
+library(reshape2)
+library(pls)
+library(ggplot2)
+library(car)
+library(datasets)
+library(wordcloud2)
+library(GGally)
+library(recipes)
+library(caret)
+library(glmnet)
+library(plyr)
+library("qpcR")
+library(Metrics)
+
+cat_list <- c("GOVERN_TYPE","HEALTHCARE_BASIS","OBS_TYPE")
+num_list <- c("POPULATION","AGE25_PROPTN","AGE_MEDIAN","AGE50_PROPTN", "POP_DENSITY", "GDP",
+         "INFANT_MORT", "DOCS", "VAX_RATE", "HEALTHCARE_COST", "DEATH_RATE")
